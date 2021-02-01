@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity6">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fill the details"
+        android:textSize="35sp"
+        android:textColor="@color/teal_200"
+        android:layout_gravity="center_horizontal"></TextView>
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:id="@+id/Edittext"
+        android:hint="@string/name"
+        android:textStyle="bold"></EditText>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:id="@+id/Edittext1"
+        android:hint="@string/name1"
+        android:textStyle="bold"></EditText>
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:hint="@string/name2"
+        android:id="@+id/Edittext2"
+        android:textStyle="bold"></EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:id="@+id/Button"
+        android:text="SUBMIT"
+        android:layout_gravity="center_horizontal"></Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="first name:"
+        android:textSize="30sp"
+        android:id="@+id/Textview"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="middle name:"
+        android:id="@+id/Textview1"
+        android:textSize="30sp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="last name:"
+        android:id="@+id/Textview3"
+        android:textSize="30sp"></TextView>
+
+
+</LinearLayout>

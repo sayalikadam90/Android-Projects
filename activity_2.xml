@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image3"
+    tools:context=".Activity2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Personal Information"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="35sp"></TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/LINEAR"
+        android:layout_marginVertical="80dp">
+
+
+
+    <TextView
+        android:id="@+id/TEXTVIEW1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/black"
+        android:text="First name:"
+        android:textSize="25sp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TEXT1"
+        android:textSize="25sp"
+        android:layout_margin="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/LINEAR1"
+        android:layout_below="@id/LINEAR"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/TEXTVIEW2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Textview5"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:text="Middle name:"
+            android:textSize="25sp"></TextView>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/TEXT2"
+             android:textSize="25sp"
+             android:textStyle="bold"
+             android:layout_marginRight="10dp"
+             android:layout_marginBottom="10dp"
+             android:layout_margin="10dp"
+             android:textColor="@color/black"></TextView>
+
+    </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/LINEAR2"
+           android:layout_marginVertical="80dp"
+           android:layout_below="@id/LINEAR1">
+
+
+           <TextView
+               android:id="@+id/TEXTVIEW3"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/Textview5"
+               android:layout_margin="10dp"
+               android:layout_marginRight="10dp"
+               android:layout_marginBottom="10dp"
+               android:text="Last name:"
+               android:textColor="@color/black"
+               android:textSize="25sp"></TextView>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textColor="@color/black"
+             android:id="@+id/TEXT3"
+             android:layout_margin="10dp"
+             android:layout_marginRight="10dp"
+             android:layout_marginBottom="10dp"
+             android:textStyle="bold"
+             android:textSize="25sp"></TextView>
+
+       </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

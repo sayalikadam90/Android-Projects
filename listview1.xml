@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/w1"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/w3"
+        app:civ_border_color="@color/white"
+        app:civ_border_width="2dp"
+        app:civ_border_overlay="true"></de.hdodenhof.circleimageview.CircleImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pragati(Chashmish)"
+        android:textSize="18dp"
+        android:id="@+id/w4"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginHorizontal="80dp"
+        android:layout_marginTop="10dp"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zala Run...."
+        android:textStyle="normal"
+        android:textSize="15dp"
+        android:textColor="@color/cardview_dark_background"
+        android:id="@+id/w5"
+        android:layout_marginHorizontal="80dp"
+        android:layout_marginTop="30dp"></TextView>
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="30dp"
+       android:text="    5:30 PM"
+       android:id="@+id/w6"
+       android:textColor="@color/cardview_dark_background"
+       android:layout_marginTop="10dp"
+       android:textSize="15dp"
+       android:layout_marginLeft="280dp"></TextView>
+
+</RelativeLayout>

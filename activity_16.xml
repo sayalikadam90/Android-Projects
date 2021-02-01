@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/alone4"
+    tools:context=".Activity16">
+
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="700dp"
+        android:background="@drawable/btncolor"
+        android:layout_marginVertical="400dp"></ImageView>
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Welcome"
+       android:textSize="40sp"
+       android:textColor="@color/white"
+       android:textStyle="bold"
+       android:layout_marginVertical="280dp"
+       android:layout_marginLeft="20dp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lets get started"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginVertical="330dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="select language"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        android:layout_marginVertical="420dp"
+        android:layout_centerHorizontal="true"></TextView>
+
+
+    <Button
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_marginVertical="490dp"
+        android:backgroundTint="@color/cardview_shadow_end_color"
+        android:layout_centerHorizontal="true"></Button>
+
+    <Button
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/cardview_shadow_end_color"
+        android:layout_marginVertical="560dp"
+        android:layout_centerHorizontal="true"></Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="English"
+       android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginVertical="500dp"
+        android:layout_marginHorizontal="100dp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hindi"
+        android:textColor="@color/black"
+        android:layout_marginVertical="570dp"
+        android:layout_marginHorizontal="100dp"
+        android:textStyle="bold"
+        android:textSize="25sp"></TextView>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/usa"
+        android:layout_marginVertical="500dp"
+        android:layout_marginHorizontal="250dp"></de.hdodenhof.circleimageview.CircleImageView>
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/india"
+        android:layout_marginVertical="570dp"
+        android:layout_marginHorizontal="250dp"></de.hdodenhof.circleimageview.CircleImageView>
+
+
+</RelativeLayout>

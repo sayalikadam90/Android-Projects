@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    tools:context=".Activity13">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@color/teal_700">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WhatsApp"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="25sp"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"></TextView>
+
+    </TableLayout>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_search3"
+        android:id="@+id/w1"
+        android:layout_marginBottom="660dp"
+        android:layout_marginHorizontal="260dp"></ImageView>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_more1"
+        android:layout_marginHorizontal="330dp"
+        android:layout_marginTop="5dp"></ImageView>
+    
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_camera"
+        android:layout_marginTop="45dp"></ImageView>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHATS"
+        android:textColor="@color/white"
+        android:layout_marginTop="60dp"
+        android:layout_marginHorizontal="70dp"
+        android:textSize="16sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STATUS"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="170dp"
+        android:textSize="16sp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CALLS"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="60dp"
+        android:layout_marginHorizontal="300dp"
+        android:textSize="16sp"></TextView>
+
+    <ImageView
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:src="@drawable/ic_dot"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="62dp"></ImageView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/w2"
+        android:layout_marginTop="90dp"></ListView>
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity9"
+    android:background="@drawable/image12">
+
+     <EditText
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text=""
+          android:hint="@string/NO"
+          android:textStyle="italic|bold"
+          android:textSize="30sp"
+         android:id="@+id/EDI"></EditText>
+
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+          android:layout_below="@id/EDI"
+          android:layout_marginTop="30dp"
+          android:text="ADD"
+         android:layout_marginLeft="30dp"
+          android:textSize="25sp"
+          android:id="@+id/BT"></Button>
+
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+         android:layout_below="@id/EDI"
+          android:layout_marginTop="30dp"
+          android:text="REMOVE"
+         android:id="@+id/BT1"
+          android:layout_marginRight="30dp"
+          android:textSize="25sp"></Button>
+
+     <ListView
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:id="@+id/city"
+         android:layout_below="@id/BT"></ListView>
+</RelativeLayout>

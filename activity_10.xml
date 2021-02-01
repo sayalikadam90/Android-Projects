@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    tools:context=".Activity10">
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Sayali_Kadam_3..."
+      android:textSize="22sp"
+      android:textStyle="bold"
+      android:textColor="@color/black"
+      android:layout_marginTop="8dp"
+      android:id="@+id/in1"
+      android:layout_marginLeft="50dp"></TextView>
+
+  <ImageView
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      android:src="@drawable/ic_black"></ImageView>
+
+  <ImageView
+      android:layout_width="60dp"
+      android:layout_height="60dp"
+      android:src="@drawable/ic_arrow"
+      android:layout_marginHorizontal="220dp"></ImageView>
+
+  <ImageView
+      android:layout_width="60dp"
+      android:layout_height="50dp"
+      android:src="@drawable/ic_add"
+      android:layout_marginLeft="260dp"></ImageView>
+
+  <ImageView
+      android:layout_width="60dp"
+      android:layout_height="55dp"
+      android:src="@drawable/ic_three_lines"
+      android:layout_marginLeft="300dp"></ImageView>
+
+   <de.hdodenhof.circleimageview.CircleImageView
+       android:layout_width="110dp"
+       android:layout_height="110dp"
+       android:src="@drawable/insta4"
+       android:layout_below="@id/in1"
+       app:civ_border_color="@color/white"
+       app:civ_border_overlay="true"
+       android:id="@+id/in2"
+       app:civ_border_width="2dp"></de.hdodenhof.circleimageview.CircleImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/in1"
+        android:text="100"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="120dp"
+       android:layout_marginVertical="30dp"
+       android:textColor="@color/black"></TextView>
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/in1"
+       android:text="535"
+       android:textColor="@color/black"
+       android:textSize="20dp"
+       android:textStyle="bold"
+       android:layout_marginLeft="195dp"
+       android:layout_marginVertical="30dp"></TextView>
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/in1"
+      android:text="550"
+      android:textStyle="bold"
+      android:textSize="20dp"
+      android:textColor="@color/black"
+      android:layout_marginHorizontal="280dp"
+      android:layout_marginVertical="30dp"></TextView>
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Posts"
+      android:textSize="16dp"
+      android:layout_marginHorizontal="120dp"
+      android:textColor="@color/black"
+      android:layout_marginVertical="100dp"></TextView>
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Followers"
+      android:textSize="16dp"
+      android:layout_marginLeft="185dp"
+      android:layout_marginVertical="100dp"
+      android:textColor="@color/black"></TextView>
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Following"
+      android:textSize="16dp"
+      android:textColor="@color/black"
+      android:layout_marginHorizontal="270dp"
+      android:layout_marginVertical="100dp"></TextView>
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/in2"
+      android:text="Sayali Kadam"
+      android:textColor="@color/black"
+      android:textSize="20dp"
+      android:layout_marginLeft="4dp"
+      android:id="@+id/in3"
+      android:textStyle="bold|italic"
+      android:layout_marginTop="10dp"></TextView>
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/in3"
+      android:id="@+id/in4"
+      android:layout_marginLeft="4dp"
+      android:text="Computer Engineer"
+      android:textSize="15dp"
+      android:layout_marginTop="2dp"
+      android:textColor="@color/black"
+      android:textStyle="italic"></TextView>
+
+  <ImageView
+      android:layout_width="25dp"
+      android:layout_height="25dp"
+      android:layout_below="@id/in3"
+      android:src="@drawable/comp"
+      android:layout_marginHorizontal="129dp"></ImageView>
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="SATARKAR"
+      android:textSize="15dp"
+      android:id="@+id/in5"
+      android:layout_marginLeft="4dp"
+      android:layout_marginTop="2dp"
+      android:textStyle="italic"
+      android:layout_below="@id/in4"
+      android:textColor="@color/black"></TextView>
+
+  <ImageView
+      android:layout_width="25dp"
+      android:layout_height="25dp"
+      android:src="@drawable/satarkar"
+      android:layout_below="@id/in4"
+      android:layout_marginHorizontal="74dp"></ImageView>
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="I do what i love and love what i do"
+     android:textSize="15dp"
+     android:layout_below="@id/in5"
+     android:textColor="@color/black"
+     android:id="@+id/in6"
+     android:layout_marginLeft="4dp"
+     android:textStyle="italic"
+     android:layout_marginTop="2dp"></TextView>
+
+  <ImageView
+      android:layout_width="20dp"
+      android:layout_height="20dp"
+      android:src="@drawable/img18"
+      android:layout_below="@id/in5"
+      android:layout_marginTop="4dp"
+      android:layout_marginLeft="220dp"></ImageView>
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Try to be a rainbow in someone's cloud"
+      android:layout_below="@id/in6"
+      android:textStyle="italic"
+      android:id="@+id/in7"
+      android:textColor="@color/black"
+      android:textSize="15dp"
+      android:layout_marginTop="2dp"
+      android:layout_marginLeft="4dp"></TextView>
+
+  <ImageView
+      android:layout_width="25dp"
+      android:layout_height="25dp"
+      android:src="@drawable/rainbow"
+      android:layout_below="@id/in6"
+      android:layout_marginLeft="256dp"></ImageView>
+
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textColor="@color/black"
+      android:background="@color/white"
+      android:text="Edit Profile"
+      android:id="@+id/in8"
+      android:layout_below="@id/in7"
+      android:layout_marginTop="5dp"
+      android:layout_marginLeft="8dp"
+      android:layout_marginRight="8dp"></Button>
+
+  <de.hdodenhof.circleimageview.CircleImageView
+      android:layout_width="60dp"
+      android:layout_height="60dp"
+      android:src="@drawable/maharaj"
+      android:layout_below="@id/in8"
+      android:id="@+id/in9"
+      app:civ_border_overlay="true"
+      app:civ_border_color="@color/white"
+      android:layout_marginLeft="10dp"
+      app:civ_border_width="2dp"></de.hdodenhof.circleimageview.CircleImageView>
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/in8"
+        android:id="@+id/in10"
+        android:src="@drawable/friend"
+        android:layout_marginLeft="100dp"
+        app:civ_border_width="2dp"
+        app:civ_border_color="@color/white"
+        app:civ_border_overlay="true"></de.hdodenhof.circleimageview.CircleImageView>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/nss1"
+        android:layout_below="@id/in8"
+        android:id="@+id/in11"
+        android:layout_marginLeft="195dp"
+        app:civ_border_overlay="true"
+        app:civ_border_color="@color/white"
+        app:civ_border_width="2dp"></de.hdodenhof.circleimageview.CircleImageView>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/self"
+        android:id="@+id/in12"
+        android:layout_below="@id/in8"
+        android:layout_marginLeft="280dp"
+        app:civ_border_width="2dp"
+        app:civ_border_color="@color/white"
+        app:civ_border_overlay="true"></de.hdodenhof.circleimageview.CircleImageView>
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Maharaj"
+         android:layout_below="@id/in9"
+         android:textSize="15dp"
+         android:textColor="@color/black"
+         android:layout_marginLeft="18dp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="friends"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_below="@id/in10"
+        android:layout_marginLeft="110dp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NSS"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/in11"
+        android:layout_marginLeft="210dp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SelfLove"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_below="@id/in12"
+        android:layout_marginLeft="280dp"></TextView>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_grid"
+        android:layout_below="@id/in10"
+        android:id="@+id/in13"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"></ImageView>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_person"
+        android:layout_below="@id/in10"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="10dp"></ImageView>
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@drawable/insta3"
+      android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="60dp"
+        android:layout_below="@id/in12"></ImageView>
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+       android:src="@drawable/insta1"
+        android:id="@+id/in14"
+        android:layout_below="@id/in12"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="60dp"
+      ></ImageView>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_home"
+        android:layout_below="@id/in14"></ImageView>
+
+     <ImageView
+         android:layout_width="80dp"
+         android:layout_height="80dp"
+         android:src="@drawable/ic_search"
+         android:layout_below="@id/in14"
+         android:layout_marginLeft="80dp"></ImageView>
+
+      <ImageView
+          android:layout_width="70dp"
+          android:layout_height="70dp"
+          android:src="@drawable/ic_heart"
+          android:layout_below="@id/in14"
+          android:layout_marginLeft="170dp"></ImageView>
+
+   <de.hdodenhof.circleimageview.CircleImageView
+       android:layout_width="30dp"
+       android:layout_height="30dp"
+       android:src="@drawable/insta4"
+       android:layout_below="@id/in14"
+       android:layout_marginTop="2dp"
+      android:layout_marginHorizontal="290dp"></de.hdodenhof.circleimageview.CircleImageView>
+
+
+</RelativeLayout>

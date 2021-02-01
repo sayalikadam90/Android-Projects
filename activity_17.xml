@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Activity17">
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WOMEN KURTIS SUITS"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="30dp"></TextView>
+
+
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_search"
+            android:layout_marginHorizontal="230dp"></ImageView>
+
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_heart"
+        android:layout_marginHorizontal="280dp"></ImageView>
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_shop"
+        android:layout_marginHorizontal="320dp"></ImageView>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_arrow1"></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="25 items"
+        android:textSize="18sp"
+        android:textColor="@color/cardview_dark_background"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="25dp"></TextView>
+
+
+
+
+
+
+
+
+
+   <GridView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/m3"
+       android:layout_marginTop="50dp"
+       android:numColumns="2"></GridView>
+
+    <LinearLayout
+        android:layout_width="1dp"
+        android:layout_height="700dp"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="179dp"
+        android:layout_marginVertical="50dp"
+        android:background="@color/cardview_dark_background"></LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="370dp"
+        android:layout_height="370dp"
+        android:src="@drawable/myntra1"
+        android:id="@+id/m1"
+
+        ></ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AHIKA"
+        android:layout_marginTop="340dp"
+        android:layout_marginHorizontal="10dp"
+        android:textSize="20dp"
+        android:id="@+id/m2"
+        android:textColor="@color/black"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="printed straight kurti"
+        android:textSize="18sp"
+        android:id="@+id/m4"
+        android:textColor="@color/cardview_dark_background"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="360dp"></TextView>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/m8"
+        android:src="@drawable/ic_heart"
+        android:layout_marginTop="380dp"
+        android:layout_marginHorizontal="130dp"></ImageView>
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+
+       <ImageView
+           android:layout_width="20dp"
+           android:layout_height="20dp"
+           android:src="@drawable/rs"
+           android:id="@+id/m5"
+           android:layout_marginTop="390dp"
+           android:layout_marginLeft="10dp"></ImageView>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="675"
+           android:id="@+id/m6"
+           android:textColor="@color/black"
+           android:layout_marginTop="385dp"
+           android:textSize="20sp"></TextView>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="50% OFF"
+           android:id="@+id/m7"
+           android:textColor="@color/red"
+           android:layout_marginTop="385dp"
+           android:layout_marginHorizontal="10dp"
+           android:textSize="15sp"></TextView>
+
+
+
+
+
+   </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/cardview_dark_background"
+      android:layout_marginVertical="40dp"  ></LinearLayout>
+
+
+
+
+
+</RelativeLayout>
